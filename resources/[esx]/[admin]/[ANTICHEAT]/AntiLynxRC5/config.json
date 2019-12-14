@@ -1,0 +1,19 @@
+{
+    "license": "",
+    "discord_webhook": "",
+    "AntiCheat": true,
+    "BlacklistedCars": true,
+    "BlacklistedCarsKick": true,
+    "BlacklistedWeapons": true,
+    "AntiAirplanes": true,
+    "AntiVehGodmode": true,
+    "AntiPeds": false,
+    "AntiProps": true,
+    "AntiHashCheat": true,
+    "AntiGodmode": true,
+    "AntiPlayerBlips": true,
+    "AntiKeyRuby": true,
+    "AntiKeyLynxR3": true,
+    "AntiKeyLynxEvo": true,
+    "AntiKeyLynxR4": true
+}

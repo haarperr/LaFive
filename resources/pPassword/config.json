@@ -1,0 +1,11 @@
+{
+    "serverPassword": "banane",
+    "serverName": "LaFive",
+    "serverWebsite": "lafiverp.fr",
+    "serverLogo": "https://i.imgur.com/hhgCcRS.png",
+
+    "cardTitle": "Accès refusé, veuillez entrer le mot de passe du serveur",
+    "enterText": "Entrer",
+    "passwordPlaceholder": "Entrer le mot de passe ici",
+    "wrongPasswordMessage" : "Mauvais mot de passe, le mot de passe est disponible sur notre discord."
+}

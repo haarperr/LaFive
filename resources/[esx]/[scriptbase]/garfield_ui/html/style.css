@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+* {padding: 0; margin: 0; box-sizing: border-box; font-family: 'Roboto', sans-serif;}
+
+.playerStats {
+	position: absolute;
+	left: 350px; /* Default: 350px */
+	bottom: 10px; /* Default: 10px */
+
+	left: 16.0%; /* (18.2% Right Side of Map) | (82.0% Right Side of Screen) | (2.7% Above Map)  */
+	top: 86.70%; /* (1.85% Default-Fix for all 16:9 resolutions) | (21.0% Above Map) */
+}
+
+.stat {
+	color: #fff;
+	background: linear-gradient(to left, rgba(0, 0, 0, 15) 100%,rgba(0, 0, 0, 15) 100%);
+	width: 210px;
+	height: 30px;
+	position: relative;
+	margin-bottom: 2px;
+	opacity: 0.80;
+}
+
+.stat .icon {
+	height: 30px;
+	width: 20px;
+	background: linear-gradient(to left, rgba(0,0,0,0) 100%,rgba(0,0,0,0.0) 0%);
+	border-radius: 50%;
+	position: relative;
+	display: inline-block;
+	right: 3px;
+}
+
+.stat .icon i, .stat .icon img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.stat .icon img {
+	height: 0;
+	width: 0;
+}
+
+.stat span {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	margin-left: -10px;
+}
+
+.status {
+	display: flex;
+	width: 195px;
+	position: relative;
+	left: -15px;
+	justify-content: space-between;
+}
+
+.vert-stat {
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	position: relative;
+	overflow: hidden;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.vert-stat .bg {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+
+.vert-stat img {
+	width: 50%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
